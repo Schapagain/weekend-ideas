@@ -17,8 +17,9 @@ export function links() {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "New Remix App",
+  title: "Bored I Am",
   viewport: "width=device-width,initial-scale=1",
+  description: "A site to explore fun ideas to check out in case you are bored.",
 });
 
 export async function loader() {
