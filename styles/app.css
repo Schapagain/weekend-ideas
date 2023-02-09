@@ -1,0 +1,8 @@
+@tailwind base;
+
+a:hover > .hover-underline {
+  display: block;
+}
+
+@tailwind components;
+@tailwind utilities;
