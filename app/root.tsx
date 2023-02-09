@@ -58,7 +58,6 @@ export function ErrorBoundary({ error }: { error: Error }) {
       <body>
         <div className="min-h-screen w-full flex flex-col justify-center items-center">
           <p>Something went wrong with the Server. Please try again later.</p>
-          <p>{JSON.stringify(error)}</p>
         </div>
         <Scripts />
       </body>
